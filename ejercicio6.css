@@ -1,0 +1,32 @@
+.first-segment{
+  background-color: #72c047;
+}
+.first-segment h1{
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+
+}
+.image-responsive{
+  max-width: 100%
+}
+.row{
+  padding: 5%;
+  clear: both;
+}
+.cell{
+  box-sizing: border-box;
+  padding-left: 10px;
+  float: left;
+  width: 33%;
+  font-size: 20px;
+}
+@media (max-width:480px) {
+  .cell{
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 4vw;
+  }
+  .first-segment h1{
+    font-size: 6vw;
+}
